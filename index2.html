@@ -1,0 +1,125 @@
+<html>
+<style>
+
+
+input[type=password], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], select {
+    width:60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4CAF50;
+	
+	
+}
+input[type=button] {
+    width: 30%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #4CAF50;
+	
+	
+}
+a:link{text-decoration:none;
+font-weight:bold;
+font-family:cursive;
+color:white;}
+
+
+</style>
+<script type="text/javascript" src="disable.js"></script>
+<meta charset="UTF-8">
+<table width="100%"align="center" style="background-color:black;height:12%">
+					<tr>
+                            <td style="width:20%; text-align:center" align="center">
+                            <img src="hlogo.png" alt="logo" height=40%/>
+                            </td>
+                            <td style="width:20%; text-align:center">
+                            <a href="index.html"><span style="color:white;font-weight:bold;font-family:cursive">HOME</a>
+                            </td>
+                             <td style="width:20%; text-align:center">
+                            <a href="reg.php"><span style="color:white;font-weight:bold;font-family:cursive">REGISTER STUDENT</a>
+                            </td>
+                            <td style="width:20%; text-align:center">
+                           <a href="facreg.php"><span style="color:white;font-weight:bold;font-family:cursive">REGISTER FACULTY</a>
+                            </td> 
+                            <td style="width:20%; text-align:center">
+                            <a href="dev.php"><span style="color:white;font-weight:bold;font-family:cursive">ABOUT US</a>
+                            </td>
+                            
+</tr>
+</table>
+<body background="1.jpg">
+
+<form align="center" id="frm1" action="login.php" method="post">
+  <table width="40%"align="center" style="background-image:url('10.jpg');height:60%;border-radius:200px">
+                       	
+				<tr>
+                    <h2 align="center"><span style="color:white;font-weight:bold;font-family:cursive">LOGIN</h2><span class="tab"></span>
+
+                            <td style="width: 40%; text-align:right" align="center">
+<br>
+                               <h3>ENTER<br> USERNAME:
+                            </td>
+                            <td style="width: 60%; text-align: left">
+                            <br> <input type="text" size="10" maxlength="25" name="id2" onblur="alphanumeric(id2);"  required>
+</td>
+</tr>
+
+
+<tr>
+                            <td style="width: 40%; text-align: right" align="center">
+
+                                <h3>PASSWORD:
+                            </td>
+                            <td style="width: 60%; text-align: left">
+                             <input type="password" size="10" maxlength='25' name="password" required>
+</td>
+</tr>
+
+ <td style="width: 40%; text-align:right" align="center">
+
+                                                            </td>
+                            <td style="width: 60%; text-align: left">
+                            <input type="button" value=" CANCEL " onclick="history.go(0)"; > <input type="submit" value="SUBMIT">
+</td>
+</tr>
+
+</form>
+
+</html>
+ 

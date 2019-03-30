@@ -1,0 +1,39 @@
+
+<html>
+<head>
+<script type="text/javaScript">
+arr = new Array()
+arr[0]='4jn16is001';
+arr[1]='4jn16is002';
+arr[2]='4jn16is003';
+arr[3]='4jn16is004';
+arr[4]='4jn16is005';
+arr[5]='4jn16is006';
+arr[6]='4jn16is007';
+arr[7]='4jn16is008';
+arr[8]='4jn16is009';
+
+function binarySearch(arr, key){
+var left=0;
+var right=arr.length-1;
+while (left<=right){
+var mid=parseInt((left+right)/2);
+if(arr[mid==key)
+return mid;
+else if (arr[mid]<key)
+left=mid+1;
+else
+right=mid-1;
+}
+return arr.length;
+}
+function search(){
+var element=binarySearch(arr,'4jn16is004');
+document.write("<h2>Binary Search Example</h2>");
+document.write("<b>The element you are searching is at
+   the index number: </b>"+ element);
+}
+</script>
+</head>
+<body onload="search()"/>
+</html>

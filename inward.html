@@ -1,0 +1,118 @@
+<html>
+<!DOCTYPE html>
+<html>
+<style>
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: #00abff ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4CAF50;
+}
+input[type=button] {
+    width: 15%;
+    background-color: #00abff ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #4CAF50;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<body>
+<script type="text/javascript" src="disable.js"></script>
+
+
+<h1 align="center">ENTER BOOK DETAILS</h1>
+  
+<div>
+<table align="center">
+
+<form action="inwarddata.php" method="post">
+
+<td style="width: 40%; text-align:right" align="right">
+
+<label for="nname">ENTER BOOK NAME</label>
+</td>
+                            <td style="width: 60%; text-align: left">
+<input name="bname" id="nname" type="text" size="20" placeholder="book name" required>
+<br>
+</td>
+</tr>
+<tr>
+<td style="width: 40%; text-align:right" align="right">
+
+<label for="ssem">ENTER YEAR OF PUBLISHING</label>
+</td>
+                            <td style="width: 60%; text-align: left">
+<input name="year" id="ssem" type="text" size="20" placeholder="year"required>
+<br>
+</td>
+</tr>
+
+</div>
+
+<td style="width: 40%; text-align:right" align="right">
+
+<label for="sec">ENTER AUTHOR NAME</label>
+</td>
+                            <td style="width: 60%; text-align: left">
+<input name="aname" id="sec" type="text" size="20" placeholder="author name" required>
+<br>
+</td>
+</tr>
+<tr>
+<td style="width: 40%; text-align:right" align="right">
+ 
+<label for="pass">ENTER COUNT</label required>
+</td>
+                            <td style="width: 60%; text-align:left">
+<input name="count" id="pass" type="text" size="20"  placeholder="count"required>
+<br>
+</td>
+</tr>
+
+
+</table>
+                         <center><input type="button" value=" BACK " onclick="window.history.back();" >  <input type="submit" value="submit" align="center">
+							
+							
+	</form>			
